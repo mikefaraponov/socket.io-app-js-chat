@@ -2,4 +2,4 @@
 Simple chat with minimalistic UI
 
 # Setup
-Before using your chat set <host> and <port> of chat application
+Before using your chat set \<host\> and \<port\> of chat application
