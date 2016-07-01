@@ -1,6 +1,6 @@
 'use strict';
 
-const socket = io.connect('http://192.168.0.109:8000');
+const socket = io.connect('http://<host>:<port>');
 
 function addUser() {
 	socket.emit('chat:adduser', prompt('Write your username!'));
