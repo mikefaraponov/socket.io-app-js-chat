@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Chat</title>
+	<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+	<div class="b-chat">
+		<header class="b-header">
+			<span class="b-header__logo">Chat</span>
+		</header>
+		<main class="b-messages">
+			<section class="b-messages-list"><section>
+		</main>
+		<footer class="b-send-form">
+			<input class="js-message" placeholder="Type your message here...">
+			<input class="js-send" type="button" value="Ok!">
+			<input type="hidden">
+		</footer>
+	</div>
+
+	<div class="b-blank "></div>
+	<aside class="b-sidebar">
+		<header class="b-sidebar__header">Users</header>
+		<span class="b-sidebar__burger">☰</span>
+		<div class="b-users"></div>
+	</aside>
+
+
+
+
+	<!-- Chat::Javascript -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/app.js"></script>
+</body>
+</html>
